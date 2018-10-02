@@ -1,0 +1,22 @@
+{
+    "name": "jayrchamp/simple-php-form-builder",
+    "type": "library",
+    "description": "Yet another php form builder",
+    "keywords": ["php", "form", "builder"],
+    "homepage": "https://github.com/champjr/simple-php-form-builder",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jayrchamp",
+            "email": "champjr@me.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimplePhpFormBuilder\\": "src/"
+        }
+    }
+}
